@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Trang cá nhân</title>
-	<style>
-		body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		
-		h1 {
-			color: #333;
-			font-size: 36px;
-			margin: 20px 0;
-			text-align: center;
-		}
-		
-		p {
-			font-size: 18px;
-			line-height: 1.5;
-			text-align: center;
-		}
-		
-		ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			text-align: center;
-		}
-		
-		li {
-			display: inline-block;
-			margin: 0 10px;
-		}
-		
-		a {
-			background-color: #333;
-			border-radius: 5px;
-			color: #fff;
-			display: inline-block;
-			font-size: 16px;
-			padding: 10px 20px;
-			text-decoration: none;
-		}
-		
-		a:hover {
-			background-color: #555;
-		}
-	</style>
+	<title>Thông tin cá nhân</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Chào mừng đến với trang cá nhân của Hoàng</h1>
-	<p>Kết nối với Hoàng: </p>
-	<ul>
-		<li><a href="https://www.facebook.com/profile.php?id=100014334990146">Facebook</a></li>
-		<li><a href="https://instagram.com">Instagram</a></li>
-		<li><a href="https://example.com">Trang web khác</a></li>
-	</ul>
+	<header>
+		<h1>Thông tin cá nhân</h1>
+	</header>
+	
+	<main>
+		<section id="profile">
+			<div class="container">
+				<img src="avatar.jpg" alt="Avatar" class="avatar">
+				<h2>Nguyễn Huy Hoàng</h2>
+				<p>20 tuổi</p>
+				
+			</div>
+		</section>
+
+		<section id="social">
+			<div class="container">
+				<h2>Kết nối với Hoàng</h2>
+				<ul>
+					<li><a href="https://www.facebook.com/profile.php?id=100014334990146"><i class="fab fa-facebook"></i> Facebook</a></li>
+					<li><a href="https://www.instagram.com/huyhoangn1608/"><i class="fab fa-twitter"></i> Twitter</a></li>
+					<li><a href="https://www.linkedin.com/in/nguy%E1%BB%85n-huy-ho%C3%A0ng-b1b76a247/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="education">
+			<div class="container">
+				<h2>Học vấn</h2>
+				<div class="row">
+					<div class="col-3">
+						<h3>Đại học Bách Khoa Hà Nội</h3>
+						<p>Kỹ thuật điều khiển và tự động hóa</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div class="container">
+				<h2>Cá nhân</h2>
+				<div class="row">				
+					<div class="col-4">
+						<h3>Sở thích</h3>
+						<ul>
+							<li>Có người iêu :))</li>
+							<li>Chơi game</li>
+							<li>Hát hò</li>
+							<li>Ngủ</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Nguyễn Huy Hoàng. All rights reserved.</p>
+	</footer>
+
+	<script src="https://kit.fontawesome.com/1234567890.js" crossorigin="anonymous"></script>
 </body>
 </html>
