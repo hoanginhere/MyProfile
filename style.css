@@ -1,0 +1,28 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-instagram {
+  background-color: #C13584;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
